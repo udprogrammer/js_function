@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    //1. Arrow Function
+
+    //----- simple Arrow Function------
+    let data = () => {
+      console.log("Hello....");
+    };
+    data();
+
+    //----- Parameter Arrow Function------
+    let sum = (a, b) => {
+      console.log(a + b);
+    };
+    sum(10, 5);
+
+    //2. Arrow Function with return
+    let data1 = () => {
+      let setdata = "How are you....";
+      return setdata;
+    };
+    let getdata = data1();
+    console.log(getdata);
+
+    //3. function with return
+
+    function myfun(a, b) {
+      return a * b;
+    }
+    let multiple = myfun(20, 10);
+    console.log(multiple);
+
+    //4. Normal function
+    function details() {
+      console.log("we are learning Javascript");
+    }
+    details();
+  </script>
+</html>
